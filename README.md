@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/tymonte-gralio-mcp-badge.png)](https://mseep.ai/app/tymonte-gralio-mcp)
+
 # Gralio SaaS Database MCP
 
 ## 🚀 Overview
