@@ -44,7 +44,7 @@ To connect Gralio MCP to your Cursor editor, add the following configuration in 
 {
     "mcpServers": {
         "gralio": {
-            "url": "https://gralio.ai/mcp/sse"
+            "url": "https://market.gralio.ai/mcp/sse"
         }
     }
 }
@@ -60,7 +60,7 @@ To connect Gralio MCP to your Cursor editor, add the following configuration in 
 {
     "mcpServers": {
         "gralio": {
-            "url": "https://gralio.ai/mcp/sse"
+            "url": "https://market.gralio.ai/mcp/sse"
         }
     }
 }
@@ -75,7 +75,7 @@ Create or modify `.vscode/mcp.json` in your project's root directory:
     "servers": {
         "GralioSaaS": {
             "type": "sse",
-            "url": "https://gralio.ai/mcp/sse"
+            "url": "https://market.gralio.ai/mcp/sse"
         }
     }
 }
@@ -87,7 +87,7 @@ Claude Desktop supports remote HTTP/SSE MCP servers via supergateway:
 
 1. **Test Supergateway**:
    ```bash
-   npx -y supergateway --sse "https://gralio.ai/mcp/sse"
+   npx -y supergateway --sse "https://market.gralio.ai/mcp/sse"
    ```
 
 2. **Configure Claude Desktop**:
@@ -102,7 +102,7 @@ Claude Desktop supports remote HTTP/SSE MCP servers via supergateway:
                    "-y",
                    "supergateway",
                    "--sse",
-                   "https://gralio.ai/mcp/sse"
+                   "https://market.gralio.ai/mcp/sse"
                ]
            }
        }
@@ -113,4 +113,4 @@ Claude Desktop supports remote HTTP/SSE MCP servers via supergateway:
 
 ## 📧 Contact
 
-For more details on the data and how to use it, please refer to our [Gralio MCP Page](https://gralio.ai/mcp).
+For more details on the data and how to use it, please refer to our [Gralio MCP Page](https://market.gralio.ai/mcp).
